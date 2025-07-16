@@ -1,0 +1,27 @@
+.about-container {
+  direction: rtl;
+  background-color: #fdfaf6;
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+  font-family: "Assistant", sans-serif;
+  color: #333;
+}
+
+.main-title {
+  font-size: 2.5rem;
+  color: #070607;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-section {
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+
+.section-title {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #4a4a4a;
+}

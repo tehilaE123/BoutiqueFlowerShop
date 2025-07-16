@@ -1,0 +1,42 @@
+.policy-container {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #fffdf9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: "Assistant", sans-serif;
+  direction: rtl;
+  color: #333;
+}
+
+.policy-container h1 {
+  color: #0e030a;
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.last-updated {
+  font-size: 14px;
+  color: #888;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.policy-container section {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+.policy-container h2 {
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.policy-container p {
+  line-height: 1.7;
+  font-size: 15px;
+}

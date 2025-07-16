@@ -1,0 +1,89 @@
+.ordersContainer {
+  min-height: 100vh;
+  background-color: #fdfaf6;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem 1rem;
+  font-family: "Assistant", sans-serif;
+  direction: rtl;
+}
+
+.ordersBox {
+  width: 100%;
+  max-width: 1000px;
+  background-color: #fffefa;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+}
+
+.ordersBox h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.admin-order-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 20px 25px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease;
+}
+
+.admin-order-card:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.admin-order-card h3 {
+  margin-bottom: 12px;
+  color: #0e030a;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.admin-order-card p {
+  margin: 6px 0;
+  color: #393838;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.admin-order-card strong {
+  color: #222;
+}
+
+.admin-order-card button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: none;
+  border: none;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.admin-order-card button.MuiButton-root {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.admin-order-card button.MuiButton-root:hover {
+  background-color: #444 !important;
+}
+
+.ordersBox p {
+  text-align: center;
+  color: #161616;
+  font-size: 1.1rem;
+  margin-top: 40px;
+}
